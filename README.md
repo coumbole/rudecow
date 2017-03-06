@@ -2,20 +2,29 @@
 
 It's a cow telling you to fuck off in various different ways.
 
-Fetches the phrases from [FOAAS](foaas.com). Code based on [foaas-client](https://github.com/paulodiovani/foaas-client).
+Fetches the phrases from [FOAAS](http://foaas.com). Code based on [foaas-client](https://github.com/paulodiovani/foaas-client).
+
+## Example usage
+Extensive list of messages can be found at [FOAAS](http://foaas.com)
+
+```
+rudecow off dude me
+
+ ______________________
+< Fuck off, dude. - me >
+ ----------------------
+        \   ^__^
+         \  (oO)\_______
+            (__)\       )\/\
+             U ||----w |
+                ||     ||
+```
 
 ## Installation
 
-### Clone git repo
-```bash
-git clone https://github.com/coumbole/rudecow.git
-cd rudecow
-npm install
-```
-
 ### Npm package
 ```bash
-npm install rudecow
+npm install -g rudecow
 ```
 
 ## Roadmap
