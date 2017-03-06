@@ -1,0 +1,33 @@
+{
+  "name": "rudecow",
+  "version": "1.0.0",
+  "description": "Combines foaas.com and cowsay",
+  "main": "index.js",
+  "bin": {
+    "rudecow": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coumbole/rudecow.git"
+  },
+  "keywords": [
+    "node",
+    "cowsay",
+    "cli",
+    "foaas"
+  ],
+  "author": "Ville Kumpulainen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coumbole/rudecow/issues"
+  },
+  "homepage": "https://github.com/coumbole/rudecow#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "cowsay": "^1.1.9",
+    "superagent": "^3.5.0"
+  }
+}
